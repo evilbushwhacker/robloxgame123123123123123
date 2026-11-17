@@ -112,6 +112,21 @@ Honorable mention: classic sword and brick fights (SFOTH, Doomspire): players ke
 
 **Things to avoid, from the evidence:** licensed characters (takedowns), making our own sequel later (splits the community), a pure simulator loop (burns out in hours), relying on chat (half of players can't), pay-to-win.
 
+## 7. Market check of the top 3 openings (17 Nov 2026)
+
+Live numbers from [RoWatcher genre pages](https://rowatcher.com/genres); approximate, since per-game pages disagree a little.
+
+| Opening | Who's live now | Leader to beat | Content a small team must make | Works without chat / on phones | Money |
+|---|---|---|---|---|---|
+| **Disaster survival rounds** | [Survive Your Ideas](https://rowatcher.com/games/10769671316/survive-your-ideas) (new Oct 2026, 108K peak, ~47K now; a random player types a word and it becomes the hazard), [Natural Disaster Survival](https://rowatcher.com/games/65241/natural-disaster-survival) (2008, 6-13K), [Evade](https://rowatcher.com/games/3647333358/hlwn-evade) 49K, Flee the Facility 13K; old clones dead (Survive The Disasters 2: 43 players) | One fresh hit; the classic is old and under-updated | **Lowest**: a disaster is a script plus effects; one new disaster a week is realistic | Excellent | Medium |
+| **Party minigames** | Squid Game X 15-19K, Timebomb Duels 10-17K, Button Battles and Wacky Games (new, 5-12K within weeks), Musical Chairs; Epic Minigames out of the top 15 | Nobody above ~20K; very fragmented | Medium-high: 15-30 minigames at launch, one new a week | Very good | Medium |
+| **Social hangout with homes and pets** | Brookhaven ~190-340K, Adopt Me ~220K, Berry Avenue 46K, LifeTogether 32K; Meep City out of the top 15 | Two giants with huge habits | **Highest**: houses, furniture, pets, events | **Weakest**: roleplay depends on chat | Highest |
+
+**Ranking:** 1. disaster survival rounds, 2. party minigames, 3. social hangout.
+Survival wins on proven demand (a brand-new hit in Oct 2026), weak old incumbents, the cheapest weekly content and full support for players without chat. Minigames are a close second but the ceiling looks lower (new hits stall at 5-12K). Social hangouts are owned by two giants and need chat.
+
+**Warning:** Survive Your Ideas is a fresh trend. Copycats die within months, so we must not be "another word-to-disaster game". The twist has to be our own.
+
 ## 6. Gaps in this research
 
 - No current player counts found for Ripull Minigames, Plates of Fate, Deathrun, Hide and Seek Extreme, Rocitizens, Field Trip Z, The Normal Elevator, Vehicle Simulator, Survive the Disasters, Whatever Floats Your Boat.
