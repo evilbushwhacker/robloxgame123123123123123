@@ -21,11 +21,14 @@ Meteors and falling stars smash into a city in waves. Your crew (solo with AI he
 | D6 | **Meteors and falling stars** destroy the city, not a licensed-looking monster | Bartosz; also avoids takedown risk | Locked |
 | D7 | Earnings go into upgrading trucks, tools and gear | Bartosz | Locked |
 | D8 | Must hold players for weeks, not hours: cleaning-only games crashed (Dig & Clean 270K to 307) | Research | Locked |
+| D9 | **Shifts with rewards every few seconds.** A shift is 3 waves over about 12 minutes. Cash pops on every piece of debris delivered, a bonus lands at the end of every wave (~4 min), and **payday** comes at the end of the shift. The very first shift is a short 5-minute one, so the first payday comes within minutes | Bartosz (Q1): reward must come fast; TikTok "first win within minutes, no dead time"; Roblox bounce bands (under 3 min) | Locked, timings to playtest |
+| D10 | **Two currencies.** Cash during the shift (fuel, repairs, quick gear); a payday currency at the end of the shift buys trucks and permanent gear | Bartosz (Q2); Dead Rails Bonds model, stops players burning through progression | Locked, names open |
+| D11 | **Everyone owns what they bought; the whole crew can use everything while playing together** | Bartosz (Q3) | Locked |
 
 ## 3. Open challenges
 
 - **C1 Why does debris lose value?** Proposal: fresh star fragments glow hot and are worth the most; they cool and dim over time. The glow shows the value at a glance, without any UI (environmental clue, from the TikTok research).
-- **C2 Shared purchases when friends leave.** If 4 friends pool money into 4 trucks and one quits, who keeps what? Proposal: everyone owns what they bought, but everything anyone in the crew owns is usable by the whole crew while they play together. Same shared feeling, no fights, no leeching.
+- ~~C2 Shared purchases when friends leave~~: decided, D11.
 - **C3 Meteors alone have no face.** A monster gives thumbnails and memories a character. Proposal: special meteor types (ice comet, gold meteor, a meteor carrying an alien egg) give each wave a personality, plus rare drops for a trophy hall.
 - **C4 Risk choice.** Proposal: the next wave is visible in the sky. Staying in the impact zone to grab more risks getting your truck crushed and losing the load.
 
