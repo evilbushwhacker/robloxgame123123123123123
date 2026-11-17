@@ -15,14 +15,19 @@ Two friends, one tandem bike, one huge climb. The front rider (the **captain**) 
 | D2 | Original world, characters and levels. No cloning another climb game | Bartosz's rule | Locked |
 | D3 | Stoker role must take skill, not just holding W | Otherwise one player is bored | Locked, mechanic open (Q1) |
 | D4 | Prototype the two-player bike physics before anything else | Biggest technical risk (section 6) | Locked |
+| D5 | Mobile must be first-class. The stoker plays a **timing bar**: a needle sweeps across a bar with a green zone; hitting green gives a stroke of power (or fires a hop). Details in 4.1 | Bartosz (Q1); most players are on phones | Locked, tuning open |
+| D6 | Checkpoints every few short sections, not every obstacle and not none. Exact spacing in 4.2 | Bartosz (Q2) plus how top duo obbies do it (5.9) | Locked, tuning in playtests |
+| D7 | Solo players get a strong AI partner | Bartosz (Q3). No top duo vehicle obby supports solo (5.9), so this is our biggest edge | Locked |
+| D8 | Groups of 3-4 get a "broken bike" mode: the bike's controls are split between everyone | Bartosz (Q3) | Locked, role split in 4.3 |
 
 ## 3. Open questions
 
 Answered in small rounds in the project thread. Recommendation in brackets.
 
-- **Q1 Stoker mechanic** [rhythm pedaling on two alternating keys, gears, boost from perfect strokes, a joint "tandem hop" that only works if both press jump together]
-- **Q2 Fall punishment** [camps every zone, a fall costs at most one zone; separate no-camps mode for streamers]
-- **Q3 Solo and groups of 3-4** [matchmaking pad, bot stoker after 15 seconds; extra friends ride a second tandem in the same server]
+- ~~Q1 Stoker mechanic~~ answered: D5
+- ~~Q2 Fall punishment~~ answered: D6
+- ~~Q3 Solo and groups of 3-4~~ answered: D7, D8
+- **Q10 What makes us different from the existing tandem and duo bike obbies** (5.9)
 - Q4 World and theme
 - Q5 Session shape: one continuous climb vs separate levels [one climb, summit visible from spawn]
 - Q6 What you earn and spend (progression)
@@ -37,6 +42,39 @@ Answered in small rounds in the project thread. Recommendation in brackets.
 3. Reach the first camp inside 2 minutes: first win, coins, a cosmetic preview of what's next.
 4. Each zone adds one new obstacle idea, then mixes it with old ones.
 5. Leave with a visible next camp and a half-filled reward bar (unfinished business).
+
+### 4.1 Stoker timing bar (D5)
+
+Bartosz's idea: a bar split roughly a third red, a third green, a third red; a press in the green moves the bike forward or makes it jump. How it's tuned, using the TikTok advice:
+
+- **Easy first, harder later** ("introduce things gradually", "first win within minutes"): zone 1 starts with a wide green zone (about a third of the bar, as Bartosz suggested). It narrows on steep or later zones. A thin bright strip in the middle of the green is a "perfect" hit that fills the boost meter.
+- **Readable without a tutorial** ("know what to do in 10 seconds"): the bar sits in the world, on the bike's chain ring next to the stoker, not as a flat HUD box. The stoker still watches the road, and clips show the bar.
+- **Feedback on every press** ("every action gets sound and visuals", Nintendo method): green is a chain click, a small speed push and a pedal animation. Perfect is a brighter chime that rises in pitch with each perfect in a row. Red is a chain-slip clunk and the bike rolls back a little on slopes, so a miss is felt, not just shown.
+- **Mobile**: one large thumb button on the right side, away from the screen edge. PC: Space or a mouse click. Console: one button.
+- **The hop**: the steerer presses hop and the next green hit fires it. Both have to commit, which makes hops the co-op moment and a clip moment.
+- Open for playtests: how fast the needle sweeps, whether holding green-hits builds speed, and whether brake is a separate button.
+
+### 4.2 Checkpoints (D6)
+
+What the top games do (5.9): Tower of Hell has none. Chained Together has few, and one mistake can cost several stages. Tandem and Scooter Duo save at checkpoints spaced a few obstacles apart and send you back to repeat the current section. Tandem and Gecko Duo sell or give out **revives** that continue from where you fell.
+
+Recommendation: a **checkpoint every 3 sections**, each section about 20-40 seconds of riding. A fall costs at most about 1-2 minutes. That keeps the "oh no" of falling without the rage that makes new players quit in the first session. A revive (continue from the fall point) is earnable for free (daily, group join) and buyable as a small developer product. This revises the earlier "no paid checkpoints" stance in 5.4: revives are proven in this exact niche and don't skip any obstacle you haven't beaten. A no-checkpoint "hardcore" mode for streamers comes later.
+
+### 4.3 Solo AI and the broken-bike mode (D7, D8)
+
+**Solo AI.** The player picks a seat and the AI takes the other one.
+- An AI stoker is easy: it hits the bar on time, with a small chance of an early or late hit.
+- An AI steerer is the hard part: it follows a racing line that we draw by hand for each section.
+- "Plays well" should still mean slightly human. A partner who never misses removes the funny failures. Give it a name, a face and a few voice lines.
+
+**Broken bike (3-4 players).** Every control is split up, so everyone is needed:
+
+| Players | Roles |
+|---|---|
+| 3 | Left steer, right steer, stoker |
+| 4 | Left steer, right steer, two stokers who must both hit green at the same time for full power (one hit gives half power) |
+
+Risk: holding only "left" can feel thin. Fix: each steerer also owns one extra action, such as the bell, the brake or the hop trigger, so nobody just waits.
 
 ## 5. Research
 
@@ -132,6 +170,31 @@ What this changes:
 - **Audience**: design and the thumbnail must win over 16+ players first (they like rage and clip moments), while staying fine for kids once we pass the evaluation. Affects Q2.
 - **New question Q9**: how do partners talk without chat? [a ping wheel and a few quick calls like "boost!", "hop on 3", "brake"]
 - **Mobile** weighs on Q1: a rhythm input must work with two big thumb buttons.
+
+### 5.9 Top-performing games with the same tech (researched 2026-11-17)
+
+**The core idea already exists.** Others have released a tandem bike where one player steers and the other moves it, more than once:
+
+| Game | Released | Visits | Peak players | Now | What it does |
+|---|---|---|---|---|---|
+| Tandem [2 Player Obby] | Aug 2024 | 29M | 4.8K | ~0 | Tandem bike, one steers, one controls speed. Auto-save checkpoints, revives. Strictly 2 players |
+| Biker Duo [2 Player Obby] | May 2026 | 31.7M | 10K (Sep 2026) | ~280 | 2-player motorcycle obby, duo time leaderboard. "Make sure you have a friend" |
+| Scooter Duo [2 Player Obby] | 2026 | 17.1M | - | ~4.2K | Driver steers and brakes, passenger calls hazards. Repeat the section after a fall |
+| Tandem Trails | 2024 | 1M+ | - | ~0 | Jeep, one drives, one steers |
+| Carry the Glass Together | Jun 2026 | 44M | 11.3K | ~2.6K | Two players carry glass; checkpoints |
+| Gecko Duo | 2026 | 3.5M | - | ~6K | Two tethered geckos climbing; revives, free ones for joining the group |
+| Chained Together (Roblox) | Jun 2024 | 197M | 14K | ~800 | Chained team of 2-5 climbing up; few checkpoints |
+| Tower of Hell | 2018 | 29.4B | - | ~19K | Solo tower, no checkpoints |
+
+Eight of the top 20 obbies by live players are multiplayer or duo games, so the niche is in demand and crowded.
+
+What this means:
+1. **Demand is proven**: duo vehicle and climb obbies reach 10K+ peaks in 2026.
+2. **They fade fast**: Tandem and Biker Duo both fell close to zero. They share the same weaknesses: they need a friend online, the roles are simple movement, and there's little to come back for (dead game method).
+3. **Our edges have to be exactly those gaps**: a strong AI partner (none of them have one), a skill-based stoker role (D5), a broken-bike mode for 3-4 (D8), a vertical climb with a summit always in view, and progression to return for.
+4. **Naming**: we can't call it "Tandem" or "Duo" anything. Q8 needs an original name.
+
+Sources: rolimons.com (Tandem, Chained Together, Carry the Glass), rowatcher.com (Biker Duo, Obby But You're On a Bike), rblxdb.com obby ranking (snapshot 15 Nov 2026), sportskeeda.com (how to play Tandem), scooter-duo.wiki, roblox.com game pages.
 
 ## 6. Technical risk: two players, one physics bike
 
