@@ -127,6 +127,40 @@ Survival wins on proven demand (a brand-new hit in Oct 2026), weak old incumbent
 
 **Warning:** Survive Your Ideas is a fresh trend. Copycats die within months, so we must not be "another word-to-disaster game". The twist has to be our own.
 
+## 8. Disaster survival niche, game by game (17 Nov 2026)
+
+| Game | Visits | Peak | Now | Created | Likes | Hook |
+|---|---|---|---|---|---|---|
+| [Survive Your Ideas](https://rowatcher.com/games/10769671316) | 114M | 108K (14 Nov 2026) | 44-47K | Oct 2026 | 89% | A random player types a word, it becomes the hazard; last alive wins; "Index" collection of words |
+| [What If Disasters](https://www.rolimons.com/game/109440485612336) | 24.7M | 23.7K (Oct 2026) | 3-15K (sources disagree) | Oct 2026 | 91% | 25 announced disasters across 9 maps |
+| [Natural Disaster Survival](https://rowatcher.com/games/65241) | ~4.4B | 78K (Mar 2025) | 6-13K | 2008 | 91% | The original: vote a map, survive a disaster |
+| [Create A Disaster](https://rbxradar.com/codes/create-a-disaster) | 19.9M | - | 2-3.5K | 2026 | ~90% | Build-and-destroy sandbox, update every ~7 days |
+| [Build To Survive DISASTERS!](https://rowatcher.com/games/7760134732/build-to-survive-disasters) | 45.6M | 12K (May 2026) | ~650 | May 2025 | 95% | Build a base with friends, then survive |
+| Other "Build to Survive" clones ([1](https://www.rolimons.com/game/17548874607), [2](https://www.rolimons.com/game/13914298804)) | 11-66M | 0.7-2.2K | 3-30 | 2023-24 | 72-97% | Same idea |
+| [Be The Disaster](https://bloxodes.com/stats/games/be-the-disaster-survive-and-become-disasters-6902460373) | 2.8M | tiny | 0 | Dec 2024 | 66% | Take turns controlling the disaster |
+| [Ocean Disaster](https://www.rolimons.com/game/115508583726985) | 6.9M | 2.9-4K (Oct 2026) | 200-475 | Jun 2026 | 77% | Sinking ship, players vs players |
+| [Survive the Disasters 2](https://rowatcher.com/games/85651869) | 58.8M | - | 43 | 2014 | 89% | Classic clone |
+
+What the numbers say (no player reviews were retrievable, so causes are inferred):
+- **Big peaks** come with player-made chaos (Survive Your Ideas), instant spectacle that clips well, short rounds, a collection to fill, and fast updates.
+- **Fast fades** come with building-heavy loops (every build-to-survive game peaked at 12K or less and faded), fixed disaster rotations, and low-polish clones.
+- **The niche is hot right now** (two new games in October 2026). That is also the danger: by a 2027 launch the wave may have passed, like brainrot. Speed matters.
+- **Likely complaints** *(unverified)*: Survive Your Ideas needs typing (half of players can't chat), rounds can run 10+ minutes, weird words spawn random things, some words are paid-only.
+
+## 9. Concept proposal: hazard card draft
+
+Built from the gaps above. A search found no Roblox game doing this, which is not proof none exists.
+
+- **Rounds of about 90 seconds**, automatic queue, no waiting.
+- **Everyone drafts**: before each round every survivor is dealt 3 hazard cards and taps one. No typing, so it works for players without chat and on phones.
+- **Cards combine**: the two or three most-picked cards merge into a combo disaster (tornado + lava = fire tornado, flood + freeze = ice rink). Discovering combos fills an **Index**, a collection like the combo "gags" Toontown players still miss.
+- **Last ones standing win**; survivors earn coins and card packs. No paid random packs (odds rules); cards are earned, cosmetics are bought.
+- **A new card every week** is the event calendar. Every new card creates new combos with all the old ones, so content grows faster than we make it.
+- **A weekly world goal** shared by all servers (for example "survive 1M combo disasters to unlock the next map") gives a reason to come back over 4 weeks.
+- **Clips**: every round has a surprise combo nobody planned.
+
+How it differs: Survive Your Ideas has one random player type a word; we have everyone tap cards that combine into something new. Natural Disaster Survival and What If Disasters use fixed disasters.
+
 ## 6. Gaps in this research
 
 - No current player counts found for Ripull Minigames, Plates of Fate, Deathrun, Hide and Seek Extreme, Rocitizens, Field Trip Z, The Normal Elevator, Vehicle Simulator, Survive the Disasters, Whatever Floats Your Boat.
