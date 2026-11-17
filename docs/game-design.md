@@ -1,6 +1,6 @@
 # Meteor cleanup crew: game design doc
 
-Living doc. Every decision lands here with its reason. The final plan and build prompt are written from this file.
+Living doc. Every decision lands here with its reason. Brainstorm ideas that aren't decided yet live in [idea-bank.md](idea-bank.md). The final plan and build prompt are written from this file.
 Working title: none yet. Research behind it: [idea-cleanup-crew.md](idea-cleanup-crew.md), [dead-roblox-games.md](dead-roblox-games.md), [tiktok-advice.md](tiktok-advice.md). The parked tandem bike design is in [archive/tandem-bike-design.md](archive/tandem-bike-design.md).
 
 **Phase (Bartosz, 17 Nov 2026):** research, numbers and planning first, then build it in one go. "Six hours to cut a tree, four sharpening the axe."
@@ -16,21 +16,24 @@ Meteors and falling stars smash into a city in waves. Your crew (solo with AI he
 | D1 | Destruction comes in **waves** | Bartosz | Locked |
 | D2 | The player **chooses how much to risk**: how long to stay, how much to grab | Bartosz | Locked, mechanic open |
 | D3 | **Debris loses value over time**; the faster you clean, the better | Bartosz | Locked, tuning open |
-| D4 | **A crew of up to 4 shares what it buys**: trucks, shovels, vacuums | Bartosz | Locked, ownership rules open (C2) |
+| D4 | **A crew of up to 4 shares what it buys**: trucks, shovels, vacuums | Bartosz | Locked (rules: D11) |
 | D5 | **Solo players get AI helpers** | Bartosz | Locked |
-| D6 | **Meteors and falling stars** destroy the city, not a licensed-looking monster | Bartosz; also avoids takedown risk | Locked |
+| D6 | **Meteors and falling stars** destroy the city (working theme; can still change, alternatives in [idea-bank.md](idea-bank.md)) | Bartosz; also avoids takedown risk | Working choice |
 | D7 | Earnings go into upgrading trucks, tools and gear | Bartosz | Locked |
 | D8 | Must hold players for weeks, not hours: cleaning-only games crashed (Dig & Clean 270K to 307) | Research | Locked |
 | D9 | **Shifts with rewards every few seconds.** A shift is 3 waves over about 12 minutes. Cash pops on every piece of debris delivered, a bonus lands at the end of every wave (~4 min), and **payday** comes at the end of the shift. The very first shift is a short 5-minute one, so the first payday comes within minutes | Bartosz (Q1): reward must come fast; TikTok "first win within minutes, no dead time"; Roblox bounce bands (under 3 min) | Locked, timings to playtest |
 | D10 | **Two currencies.** Cash during the shift (fuel, repairs, quick gear); a payday currency at the end of the shift buys trucks and permanent gear | Bartosz (Q2); Dead Rails Bonds model, stops players burning through progression | Locked, names open |
 | D11 | **Everyone owns what they bought; the whole crew can use everything while playing together** | Bartosz (Q3) | Locked |
+| D12 | **Getting hit knocks you out**: you go back to HQ and lose everything you were carrying. Hits must be **escapable with a bit of skill**: every impact is warned in advance (a growing shadow and glow on the ground), and the danger zone is small | Bartosz (Q4) | Locked, warning time to playtest |
+| D13 | **Simple arcade driving**: drive to the site and back, easy on phones, but not autopilot-simple | Bartosz (Q5) | Locked |
+| D14 | **Fresh debris is worth more** and loses value as it ages | Bartosz (Q6) | Locked; the in-world reason is open (idea bank) |
 
 ## 3. Open challenges
 
 - **C1 Why does debris lose value?** Proposal: fresh star fragments glow hot and are worth the most; they cool and dim over time. The glow shows the value at a glance, without any UI (environmental clue, from the TikTok research).
 - ~~C2 Shared purchases when friends leave~~: decided, D11.
 - **C3 Meteors alone have no face.** A monster gives thumbnails and memories a character. Proposal: special meteor types (ice comet, gold meteor, a meteor carrying an alien egg) give each wave a personality, plus rare drops for a trophy hall.
-- **C4 Risk choice.** Proposal: the next wave is visible in the sky. Staying in the impact zone to grab more risks getting your truck crushed and losing the load.
+- ~~C4 Risk choice~~: decided, D12. The next wave is visible in the sky; greed means staying near impact zones.
 
 ## 4. What the research says (17 Nov 2026)
 
