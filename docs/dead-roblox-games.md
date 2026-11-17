@@ -90,7 +90,13 @@ Numbers from [Rolimons](https://www.rolimons.com/game/2753915549) place pages.
 4. Regular visible updates (3-4x more players kept at six months).
 5. A real community (10K+ group members at peak).
 
-**The surprise:** several old games hit **new peaks in 2025-2026**: Flee the Facility (90.6K, Sep 2026), Bee Swarm (265K, Dec 2025), Natural Disaster Survival (129K, Mar 2025), Work at a Pizza Place (168K, Sep 2026), Lumber Tycoon 2 (34K, Sep 2026), Epic Minigames (32K, Oct 2025). This matches Roblox saying players are shifting "toward newer and evergreen games". **Classic formats are being re-served to players right now.** Worth confirming why before we bet on it.
+**The "classics re-peaking" signal, checked:** several old games hit new tracked peaks in 2025-2026, but most of it was promotion, not a trend.
+- Work at a Pizza Place, Lumber Tycoon 2 and Apocalypse Rising 2 spiked during Roblox's own event "The Hunt: Roblox 20" (Sep 17-28, 2026), which sent players through 20 games in sequence ([Roblox](https://about.roblox.com/newsroom/2026/09/join-the-hunt-roblox-20)). Pizza Place then dropped 57% in a week ([RoWatcher](https://rowatcher.com/news/roblox-week-in-numbers-2026-w40)).
+- Bee Swarm's spike was its yearly Christmas event ([RoWatcher](https://rowatcher.com/news/bee-swarm-simulator-how-one-developer-built-a-roblox-empire-that-won-t-quit)).
+- Only Flee the Facility kept a real chunk (about 22% of its 91K peak, still growing month over month); cause unknown.
+- What is real: since June 2026 Roblox recommendations score retention on day 1, days 2-7 and **days 8-28** separately, plus session quality and spending ([Roblox](https://about.roblox.com/newsroom/2026/06/optimizing-discovery-great-games-reach-millions-players-roblox)). That rewards any game that keeps players for weeks, classic or not.
+
+**Verdict:** "old formats get a boost" is not a plan. "Keep players past day 8, with a live event calendar" is.
 
 ## 5. The openings (loved, now dead or faded, no strong modern replacement)
 
@@ -109,5 +115,4 @@ Honorable mention: classic sword and brick fights (SFOTH, Doomspire): players ke
 ## 6. Gaps in this research
 
 - No current player counts found for Ripull Minigames, Plates of Fate, Deathrun, Hide and Seek Extreme, Rocitizens, Field Trip Z, The Normal Elevator, Vehicle Simulator, Survive the Disasters, Whatever Floats Your Boat.
-- The "old games re-peaking" pattern needs a cause before we rely on it.
 - Before choosing an opening, check what's live today in that genre (the tandem lesson).
