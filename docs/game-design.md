@@ -28,6 +28,7 @@ Answered in small rounds in the project thread. Recommendation in brackets.
 - Q6 What you earn and spend (progression)
 - Q7 Monetization [duo bike packs, server fanfare, double coins: see 5.4]
 - Q8 Name and thumbnail
+- Q9 Talking without chat [ping wheel plus quick calls]
 
 ## 4. Core loop (draft)
 
@@ -113,6 +114,24 @@ Simple actions feel good through anticipation, a strong hit moment, and a satisf
 - **Kids arguing about what to play**: "it's only for two, we're four"; "I don't have anyone online"; "rage games are too hard". → These are Q2 and Q3.
 - **Kid buying an upgrade**: a "+5% speed" bike looks pointless. → Upgrades must show a visible change (pending section 5.4 and Q6).
 - **YouTuber recording**: clip moments are a huge tandem hop, a fall all the way down blamed on the partner, a last-second save on a collapsing bridge.
+
+### 5.8 Skills and design libraries studied
+
+Searched GitHub for game design repos and agent skills, and read the relevant parts of the best ones plus the installed lihfolk Roblox vault. Nothing from them is copied into this repo; they're reference only.
+
+| Source | What we took |
+|---|---|
+| lihfolk vault, *Network Ownership* | Confirms the main risk: on a two-seat vehicle the first player to sit owns all the physics and the other player's input lags. Assign the owner once on sit and never switch mid-ride (switching causes stutter). A client that owns the bike can also cheat its position, so camp rewards must be checked on the server. |
+| lihfolk, 2026 platform research | **Under-16 players can't see a new game until it passes an evaluation**: a trial with age-checked 16+ players (250 plays by highly engaged users within 60 days), a verified owner account and a refundable fee. So our **launch audience is 16+**, not kids. Discovery also scores the first 60 seconds (first-play bounce rate), D28 retention and monetization together, and counts at most 60 minutes of playtime per player per day. Chat is age-checked, so **partners must be able to talk without chat** (pings and quick phrases). |
+| fagemx/gstack-game, *feel-pass* | The 4-beat model for every action: anticipation, action, impact, resolution. Name the feedback channel and the timing, never just "feels good". Audio carries about half the feel. Any wait over half a second is dead time unless it's authored. Test an action on the 20th repeat, not the first. |
+| AshExplained/roblox-skills (world design, UX, social, retention) | Spawn facing the landmark, safe space before challenge space, rewards right after effort, social areas where progress shows. Mobile first: large touch targets, no precision drags unless the game is built on it. Retention plan by day: D1 fun fast, D3 big unlock around hour 2-3, D7 a reward promised on day 1. |
+| brockmartin/roblox-game-skill, obby template | Standard checkpoint and stage structure we can borrow. It has nothing on vehicle physics or two-player ownership, so the prototype in section 6 is still on us. |
+| hzoo/awesome-gametalks, Roobyx/awesome-game-design | Reading lists of game talks and design resources, for later deep dives. |
+
+What this changes:
+- **Audience**: design and the thumbnail must win over 16+ players first (they like rage and clip moments), while staying fine for kids once we pass the evaluation. Affects Q2.
+- **New question Q9**: how do partners talk without chat? [a ping wheel and a few quick calls like "boost!", "hop on 3", "brake"]
+- **Mobile** weighs on Q1: a rhythm input must work with two big thumb buttons.
 
 ## 6. Technical risk: two players, one physics bike
 
