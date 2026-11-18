@@ -85,16 +85,19 @@ All arcade driving: gas, brake, steer, big phone buttons. Debris thrown into the
 | Boots | Run faster (escaping impacts, getting to fresh debris first) | 400 / 1,200 / 3,000 |
 
 ### 2.8 Helpers (D5)
-- **Cleaning bots**, not AI drivers: small robots that follow you and pick up pebbles near you, then drop them in your truck.
+- **Cleaning bots**, not AI drivers: small robots dressed like the crew, in the same yellow hi-vis jacket and hard hat (Bartosz: not the obvious square-head robot). They read as junior crew members, not machines. Small, round, friendly; their outfit matches the crew's uniform paint, so uniforms you buy show on your bots too. They follow you and pick up pebbles near you, then drop them in your truck.
 - Everyone gets 1 free bot. Buy up to 3 (800 / 2,500 / 6,000 Stardust).
 - Solo players get +1 extra bot automatically, so solo isn't slower than a crew (D5).
 - AI that drives trucks or lifts boulders is out for v1: hard to build, buggy on phones, and *Clean the Moon!* already proved bots are enough.
 
 ### 2.9 Crew (D4, D11)
-- **One server = one crew, up to 4 players** (proposal, see Q7).
+- **No menu, no separate lobby place.** You join and you're standing at HQ with the tutorial already running. HQ *is* the lobby (Bartosz, 18 Nov: "speed is everything, take the player to the tutorial ASAP"). A separate lobby place would add a 10-20 s teleport before anyone plays.
+- **Servers hold about 12 players, split into crews of up to 4.** Every player starts in their own crew (solo with bots), so nobody waits for anyone.
+- **Teaming up:** an "Invite friends" button (Roblox's built-in invite) and a "Join crew" prompt when you walk up to another player at HQ. A friend who joins through the invite lands in your server and is put in your crew automatically. You can join or leave a crew between shifts, never mid-shift.
+- All crews share the same city, so fresh debris is also a race against other crews (fits D3).
 - Anyone can drive any truck in the crew and use any tool level the crew owns; you only keep what you bought.
 - Boulders are worth carrying together; a "two players lifting" pose is a clip moment.
-- Free private servers so friends can always play together (co-play ranking signal).
+- Private servers stay available but are never the way in; the invite button is (co-play ranking signal).
 - Quick pings ("Here!", "Help lift", "Truck full") instead of chat, since half of players can't chat.
 
 ### 2.10 Economy (D10)

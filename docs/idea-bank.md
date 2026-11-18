@@ -57,7 +57,8 @@ Status: **In** = in the design · **Maybe** = good candidate · **Event** = bett
 | Heavy debris needs two players or a crane | Claude | Maybe | Makes friends matter |
 | Crew roles: driver, digger, vacuum, crane operator | Claude | Maybe | Natural with different tools |
 | Pings and quick calls instead of chat | Claude | Maybe | Half of players can't chat |
-| One server = one crew of up to 4 | Claude | Proposed (Q7) | Simplest crew system, no lobby or teleports |
+| One server = one crew of up to 4 | Claude | Out | Bartosz wants friends to team up in one tap |
+| HQ is the lobby: join straight into the tutorial, invite friends, crews of up to 4 inside a ~12 player server | Bartosz + Claude | **In** (v1) | Fastest path from join to playing |
 | Solo players get +1 extra bot | Claude | **In** (v1 draft) | Keeps solo as fast as a crew |
 
 ## 5. Trucks and tools
@@ -69,7 +70,8 @@ Status: **In** = in the design · **Maybe** = good candidate · **Event** = bett
 | Crane, magnet, crusher, sweeper, dump truck, tow truck | Claude | Maybe | Each opens a new kind of debris |
 | Bigger truck beds and more trucks in the fleet | Bartosz | **In** | |
 | Visible upgrades: every upgrade changes how the truck or tool looks | Claude | Maybe | TikTok "kid buying an upgrade" test |
-| Cleaning bots that follow you and pick up pebbles (instead of AI drivers) | Claude | Proposed (Q9) | Clean the Moon! shows bots are enough |
+| Cleaning bots that follow you and pick up pebbles (instead of AI drivers) | Claude | **In** (v1) | Clean the Moon! shows bots are enough |
+| Bots wear the crew uniform: yellow hi-vis jacket and hard hat, not a square-head robot | Bartosz | **In** (v1) | Uniform paints you buy show on your bots too |
 | Boots: run faster to escape impacts and reach fresh debris first | Claude | **In** (v1 draft) | |
 | One-shift boosts bought with Cash (magnet gloves, extra bot) | Claude | **In** (v1 draft) | Gives Cash a use inside the shift |
 
