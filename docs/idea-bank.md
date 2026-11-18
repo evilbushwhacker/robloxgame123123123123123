@@ -20,12 +20,16 @@ Status: **In** = in the design · **Maybe** = good candidate · **Event** = bett
 | Giant snowballs and presents | Claude | Event | Christmas event |
 | Giant eggs | Claude | Event | Easter event |
 | Mix: one main theme plus a different "falling thing" each holiday | Claude | **Maybe** | Gives the weekly event calendar its content without changing the core game |
+| Cluster meteor: splits in the air into 4 small impacts | Claude | **In** (v1) | |
+| Gold meteor: rare, 5x debris, server-wide announcement | Claude | **In** (v1) | About 1 in 3 shifts |
+| Core meteor as the wave 3 finale | Claude | **In** (v1) | Heavy, needs crane or 2 players |
 
 ## 2. Why fresh debris is worth more
 
 | Idea | By | Status | Notes |
 |---|---|---|---|
 | Fragments glow hot and cool down; heat = value | Claude | Maybe (top pick) | Value readable at a glance from the glow, no UI needed |
+| Glow in 4 steps (white-hot 3x, orange 2x, red 1.5x, grey 1x) instead of a smooth fade | Claude | **In** (v1 draft) | A colour change is a moment to decide, a fade is not |
 | Stardust evaporates over time | Claude | Maybe | Pieces visibly shrink |
 | Rival crews and scavengers (NPC) pick over old debris | Claude | Maybe | Old piles are less valuable because the good bits are gone |
 | City pays a "fast response" bonus that drops each minute | Claude | Maybe | Simple, but less magical |
@@ -40,6 +44,7 @@ Status: **In** = in the design · **Maybe** = good candidate · **Event** = bett
 | Warning shadow and glow grow on the ground before impact | Claude | **In** | The Hitchcock bomb idea: you see it coming |
 | A crewmate can rescue a knocked-out player in time to keep their load | Claude | Maybe | More teamwork, a clip moment |
 | Truck hit = loses part of its load, not all | Claude | Maybe | Keeps big losses from feeling unfair |
+| Truck hit drops half its load | Claude | **In** (v1 draft) | |
 | Insurance: pay a little cash at the start of a shift to keep half your load if hit | Claude | Maybe | Earned, not sold for Robux |
 
 ## 4. Crew and sharing
@@ -52,6 +57,8 @@ Status: **In** = in the design · **Maybe** = good candidate · **Event** = bett
 | Heavy debris needs two players or a crane | Claude | Maybe | Makes friends matter |
 | Crew roles: driver, digger, vacuum, crane operator | Claude | Maybe | Natural with different tools |
 | Pings and quick calls instead of chat | Claude | Maybe | Half of players can't chat |
+| One server = one crew of up to 4 | Claude | Proposed (Q7) | Simplest crew system, no lobby or teleports |
+| Solo players get +1 extra bot | Claude | **In** (v1 draft) | Keeps solo as fast as a crew |
 
 ## 5. Trucks and tools
 
@@ -62,6 +69,9 @@ Status: **In** = in the design · **Maybe** = good candidate · **Event** = bett
 | Crane, magnet, crusher, sweeper, dump truck, tow truck | Claude | Maybe | Each opens a new kind of debris |
 | Bigger truck beds and more trucks in the fleet | Bartosz | **In** | |
 | Visible upgrades: every upgrade changes how the truck or tool looks | Claude | Maybe | TikTok "kid buying an upgrade" test |
+| Cleaning bots that follow you and pick up pebbles (instead of AI drivers) | Claude | Proposed (Q9) | Clean the Moon! shows bots are enough |
+| Boots: run faster to escape impacts and reach fresh debris first | Claude | **In** (v1 draft) | |
+| One-shift boosts bought with Cash (magnet gloves, extra bot) | Claude | **In** (v1 draft) | Gives Cash a use inside the shift |
 
 ## 6. Progression and long-term goals
 
@@ -74,6 +84,10 @@ Status: **In** = in the design · **Maybe** = good candidate · **Event** = bett
 | Rare drops inside meteors (crystals, alien eggs) | Claude | Maybe | Ties to the trophy hall |
 | Hard mode after the first win, double rewards | Claude (from Dead Rails) | Maybe | |
 | Upgrade your HQ itself | Claude | Maybe | A base to show friends |
+| Leftover Cash converts to Stardust at payday (10:1) | Claude | Proposed (Q8) | |
+| Daily login streak, day 7 truck paint | Claude | **In** (v1 draft) | |
+| Weekly leaderboard: tons cleaned | Claude | **In** (v1 draft) | |
+| Locked second district visible behind a gate | Claude | **In** (v1 draft) | Becomes the week 2 update |
 
 ## 7. Events and live updates
 

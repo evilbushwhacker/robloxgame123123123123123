@@ -1,6 +1,6 @@
 # Meteor cleanup crew: game design doc
 
-Living doc. Every decision lands here with its reason. Brainstorm ideas that aren't decided yet live in [idea-bank.md](idea-bank.md). The final plan and build prompt are written from this file.
+Living doc. Every decision lands here with its reason. Brainstorm ideas that aren't decided yet live in [idea-bank.md](idea-bank.md). The final plan and build prompt are written from this file. Version 1 scope, numbers and build order: [v1-plan.md](v1-plan.md).
 Working title: none yet. Research behind it: [idea-cleanup-crew.md](idea-cleanup-crew.md), [dead-roblox-games.md](dead-roblox-games.md), [tiktok-advice.md](tiktok-advice.md). The parked tandem bike design is in [archive/tandem-bike-design.md](archive/tandem-bike-design.md).
 
 **Phase (Bartosz, 17 Nov 2026):** research, numbers and planning first, then build it in one go. "Six hours to cut a tree, four sharpening the axe."
